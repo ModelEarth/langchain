@@ -1,0 +1,4 @@
+version: 1
+openai:
+  modelname: 'text-embedding-3-small'
+  dimension: 1536

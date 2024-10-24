@@ -1,0 +1,7 @@
+version: 1
+pinecone:
+  pinecone_index_name: 'github-rag-db'
+  pinecone_metric: 'dotproduct'  
+
+
+
