@@ -14,9 +14,11 @@ class VectorStore(ABC):
     def save_model(self):
         pass
 
+    @abstractmethod
     def update_model(self, documents):
         pass
 
+    @abstractmethod
     def get_retriever(self, filter, k):
         pass
 

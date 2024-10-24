@@ -40,7 +40,15 @@ def process_jobs():
 
             try:
                 documents = GithubDocumentFetcher(data).fetch_and_process()
-                InMemoryStore(path = model_path).load_and_get_model().update_model(documents)
+
+
+                # InMemoryStore(path = model_path).load_and_get_model().update_model(documents)
+
+                """
+                  updating the same in memory model as we have just one processor. Have to move out this logic once we scale it up
+                """
+                vector_store.update_model(documents)
+
             except Exception as e:
                 print(f" Could not fetch/process data {e} ")
         data_queue.task_done()
