@@ -1,7 +1,8 @@
-# Langchain.js
+# OpenAI Python SDK with Grok
 
-LangChain.js Setup: [api.js.langchain.com](https://api.js.langchain.com)
+[OpenAI Python SDK](https://github.com/openai/openai-python) with [$25 free temporary access to Grok](https://x.ai/blog/api)
 
-Installs to Users/[user]/node_modules/langchain on Mac.
 
-	yarn add langchain
+# Langchain
+
+Branches in the current repo contain python code for Langchain. Please move to main.
