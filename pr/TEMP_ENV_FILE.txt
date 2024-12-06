@@ -1,7 +1,0 @@
-Below are the keys necessary for proper execution of the RAG file.
-
-GITHUB_PERSONAL_ACCESS_TOKEN = ""
-PINECONE_ACCESS_TOKEN = ""
-OPENAI_API_KEY  = ""
-LANGCHAIN_API_TOKEN = ""
-
