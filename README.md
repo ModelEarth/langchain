@@ -1,13 +1,9 @@
-# OpenAI Python SDK with Grok
-
-To try without Langchain: [OpenAI Python SDK](https://github.com/openai/openai-python) with [$25 free temporary access to Grok](https://x.ai/blog/api)
-
-
 # Langchain Python
 
-Branches in the current repo contain python code for Langchain. Please move to main.
+Python code for Langchain.
 
-Also see our [Planet AI repo for Javascript with LLM APIs](https://github.com/ModelEarth/planet)
+Also see our [Planet Langchain repo for Javascript with LLM APIs](https://github.com/ModelEarth/planet)
+
 	yarn add langchain
 
 Design : 
